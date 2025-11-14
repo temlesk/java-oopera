@@ -1,7 +1,7 @@
 package ru.yandex.theather.person;
 
 public class Director extends Person {
-    public int countShow;
+    protected int countShow;
 
     public Director(String name, String surname, Gender gender, int countShow) {
         super(name, surname, gender);

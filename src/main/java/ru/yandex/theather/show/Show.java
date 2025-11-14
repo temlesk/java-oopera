@@ -38,7 +38,7 @@ public class Show {
         boolean found = false;
         int count = 0;
         for (int i = 0; i < listOfActors.size(); i++) {
-            if (((Actor) listOfActors.get(i)).surname.equals(surnameToReplace)) {
+            if (((Actor) listOfActors.get(i)).getSurname().equals(surnameToReplace)) {
                 count++;
             }if (count > 1){
                 System.out.println("В списке есть несколько актеров с таким имененем");

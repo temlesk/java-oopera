@@ -7,7 +7,6 @@ import ru.yandex.theather.person.Person;
 import ru.yandex.theather.show.Show;
 import ru.yandex.theather.show.Opera;
 import ru.yandex.theather.show.Ballet;
-import ru.yandex.theather.show.MusicalShow;
 
 import java.util.ArrayList;
 

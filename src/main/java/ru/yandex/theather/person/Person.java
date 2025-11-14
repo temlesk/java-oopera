@@ -1,9 +1,9 @@
 package ru.yandex.theather.person;
 
 public class Person {
-    public String name;
-    public String surname;
-    Gender gender;
+    protected String name;
+    protected String surname;
+    protected Gender gender;
 
     public Person(String name, String surname, Gender gender) {
         this.name = name;
